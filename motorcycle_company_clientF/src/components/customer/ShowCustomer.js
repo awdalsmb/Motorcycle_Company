@@ -41,7 +41,7 @@ class ShowCustomer extends Component {
             <h4><Button variant="primary"><Link to="/customerList" style={{ color: '#FFF', textDecoration: 'none' }}><span class="glyphicon glyphicon-th-list" aria-hidden="true" ></span> Customer List</Link></Button></h4>
             <div class="card text-center mt-5">
               <div class="card-header">
-                Customer
+                Klient
               </div>
               <ul class="list-group ">
                 <li class="list-group-item"><strong>Imię</strong>: {this.state.customers.firstName}</li>
