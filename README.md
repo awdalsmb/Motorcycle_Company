@@ -2,22 +2,23 @@ Motorcycle Company -  Web Api
 
 Simple application that helps to manage customers and motorcycles.
 
-Stack
+### Stack
 Client - React.js Server - Asp .Net Core Web Api Database - MongoDB
 
-How to start?
+### How to start?
+
 a) Run server application,
 
 b) Run client application:
 
-Project setup:
+- Project setup:
 
 npm install
 
-Compiles and hot-reloads for development:
+- Compiles and hot-reloads for development:
 
 npm start
 
-Compiles and minifies for production
+- Compiles and minifies for production
 
 npm run build
