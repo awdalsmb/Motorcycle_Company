@@ -48,5 +48,21 @@ namespace MotorcycleCompany.DbModels
                 return _database.GetCollection<Motorcycle>("Motorcycles");
             }
         }
+
+        public IMongoCollection<Reservation> Reservation
+        {
+            get
+            {
+                return _database.GetCollection<Reservation>("Reservation");
+            }
+        }
+
+        public IMongoCollection<DateReservation> DateReservation
+        {
+            get
+            {
+                return _database.GetCollection<DateReservation>("DateReservation");
+            }
+        }
     }
 }

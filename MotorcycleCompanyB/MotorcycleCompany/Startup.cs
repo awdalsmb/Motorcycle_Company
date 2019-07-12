@@ -45,6 +45,7 @@ namespace MotorcycleCompany
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmployeeRepository, EmployeeRepository>();
             services.AddTransient<IMotorcycleRepository, MotorcycleRepository>();
+            services.AddTransient<ReservationRepository>();
 
 
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
